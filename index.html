@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite + TS</title>
+        <script src="//webglfundamentals.org/webgl/resources/webgl-utils.js"></script>
+        <script src="https://webglfundamentals.org/webgl/resources/m4.js"></script>
+      <script type="module" crossorigin src="/assets/index-926e7c6b.js"></script>
+      <link rel="stylesheet" href="/assets/index-f5a3cb81.css">
+    </head>
+    <body>
+        <div id="app">
+            <div id="background">
+                <canvas id="canvas"></canvas>
+                <div id="speaker" onclick="mute.bind(this)()">
+                    <img src="/speaker.png"/>
+                    <img src="/volume-1.png"/>
+                    <img src="/volume-2.png"/>
+                </div>
+                <div id="scroll">scroll down</div>
+                <div id="content">
+                    <div id="content-inner">
+                        <h5>ERNEST SKORUPSKI</h5>
+                        <div class="info role">Junior Fullstack Developer</div>
+                        <hr>
+                        <canvas id="skills-nodes"></canvas>
+                        <div id="skills"></div>
+                        <div id="hover-skill">
+                            <div class="top">
+                                <div class="name">Vue</div>
+                                <div class="skill-level">
+                                    <div class="point"></div>
+                                    <div class="point"></div>
+                                    <div class="point active"></div>
+                                    <div class="point active"></div>
+                                    <div class="point active"></div>
+                                </div>
+                            </div>
+                            <div class="hr"></div>
+                            <div class="info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In voluptas nobis minus, officia fuga hic quam aspernatur mollitia quis molestias!</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="blur"></div>
+            </div>
+        </div>
+        
+    </body>
+</html>
